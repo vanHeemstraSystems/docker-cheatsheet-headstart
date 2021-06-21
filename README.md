@@ -19,6 +19,12 @@ $ docker ps
 $ docker rm $(docker ps -aq)
 ```
 
+#### 300 - View logs of a container
+
+```
+$ docker logs [CONTAINER ID]
+```
+
 ### 300 - Docker Share commands
 
 ## 200 - Docker Compose commands
