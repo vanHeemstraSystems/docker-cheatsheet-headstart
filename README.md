@@ -19,7 +19,13 @@ $ docker ps
 $ docker rm $(docker ps -aq)
 ```
 
-#### 300 - View logs of a container
+#### 300 - Stop and force remove all containers
+
+```
+$ docker-compose stop ; docker-compose rm -f
+```
+
+#### 400 - View logs of a container
 
 ```
 $ docker logs [CONTAINER ID]
